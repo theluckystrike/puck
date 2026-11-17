@@ -88,7 +88,7 @@ Puck is designed to integrate into your existing backend. If you don't already h
 
 ## Puck Cloud
 
-Puck Cloud is our modular, hosted backend for Puck with a versioned page database, managed authentication, and much more. It's best for when you have no existing backend or database, and is free to start.
+[Puck Cloud](https://puckeditor.com/docs/cloud/overview) is our modular, hosted backend for Puck with a versioned page database, managed authentication, and much more. It's best for when you have no existing backend or database, and is free to start.
 
 To configure it, run the Puck CLI, and select the modules you require:
 
@@ -98,7 +98,7 @@ npx @puckeditor/core init
 
 ### Pages
 
-[Puck Pages](#) is a hosted page store built for Puck, providing version history and data migrations.
+[Puck Pages](https://puckeditor.com/docs/cloud/pages/overview) is a hosted page store built for Puck, providing version history and data migrations.
 
 ```sh
 npx @puckeditor/core add pages
@@ -106,7 +106,7 @@ npx @puckeditor/core add pages
 
 ### Auth
 
-[Puck Auth](#) provides managed authentication for Puck, allowing users to sign-in with a Puck Cloud account.
+[Puck Auth](https://puckeditor.com/docs/cloud/auth/overview) provides managed authentication for Puck, allowing users to sign-in with a Puck Cloud account.
 
 ```sh
 npx @puckeditor/core add auth
@@ -114,13 +114,11 @@ npx @puckeditor/core add auth
 
 ### AI
 
-[Puck AI](https://puckeditor.com/docs/ai/overview) is an AI agent for Puck for generating interfaces directly from the editor.
+[Puck AI](https://puckeditor.com/docs/cloud/ai/overview) is an AI agent for Puck for generating interfaces directly from the editor.
 
 ```sh
 npx @puckeditor/core add ai
 ```
-
-Or [set it up manually](https://puckeditor.com/docs/…).
 
 ## Community
 
